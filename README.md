@@ -1,41 +1,3 @@
-<p align="center">
-  <a href="https://www.instagram.com/devfullcycle/" target="blank"><img src="https://fullcycle.com.br/wp-content/themes/fullcycle-blog/application/img/logo-fullcycle.png"/></a>
-</p>
-
-# Guia rápido do WSL2 + Docker
-
-## O que é o WSL2 
-
-Em 2016, a Microsoft anunciou a possibilidade de rodar o Linux dentro do Windows 10 como um subsistema e o nome a isto foi dado de **WSL** ou **Windows Subsystem for Linux**.
-
-O acesso ao sistema de arquivos no Windows 10 pelo Linux era simples e rápido, porém não tínhamos uma execução completa do kernel do Linux, além de outros artefatos nativos e isto impossibilitava a execução de várias tarefas no Linux, uma delas é o Docker.
-
-Em 2019, a Microsoft anunciou o **WSL 2**, com uma dinâmica aprimorada em relação a 1ª versão:
-
-* Execução do kernel completo do Linux.
-* Melhor desempenho para acesso aos arquivos dentro do Linux.
-* Compatibilidade completa de chamada do sistema.
-
-O WSL 2 foi lançado oficialmente no dia 28 de maio de 2020.
-
-Com WSL 2 é possível executar Docker no Linux usando o Windows 10.
-
-Compare as versões: [https://docs.microsoft.com/pt-br/windows/wsl/compare-versions](https://docs.microsoft.com/pt-br/windows/wsl/compare-versions)
-
-
-## O que é Docker
-
-Docker é uma plataforma open source que possibilita o empacotamento de uma aplicação dentro de um container. Uma aplicação consegue se adequar e rodar em qualquer máquina que tenha essa tecnologia instalada.
-
-## Porque usar WSL 2 + Docker para desenvolvimento
-
-Configurar ambientes de desenvolvimento no Windows sempre foi burocrático e complexo, além do desempenho de algumas ferramentas não serem totalmente satisfatórias.
-
-Com o nascimento do Docker este cenário melhorou bastante, pois podemos montar nosso ambiente de desenvolvimento baseado em Unix, de forma independente e rápida, e ainda unificada com outros sistemas operacionais.
-
-Veja nossa **live sobre WSL 2 + Docker no canal Full Cycle**: [https://www.youtube.com/watch?v=usF0rYCcj-E](https://www.youtube.com/watch?v=usF0rYCcj-E).
-
-
 ## Modos de usar Docker no Windows
 
 * [Docker Toolbox](#docker-toolbox).
@@ -76,7 +38,7 @@ Temos a grande vantagem de se trabalhar totalmente dentro do Linux para desenvol
 * Adiciona infraestrutura complexa para executar Docker, quando se necessita apenas de rodar os containers Docker dentro de um WSL 2 apenas.
 
 
-### <a id="docker-engine-docker-nativo-diretamente-instalado-no-wsl2"></a>Docker Engine (Docker Nativo) diretamente instalado no WSL2.
+### Docker Engine (Docker Nativo) diretamente instalado no WSL2.
 
 O Docker Engine é o Docker nativo que roda no ambiente Linux e completamente suportado para WSL 2. Sua instalação é idêntica a descrita para as próprias distribuições Linux disponibilizadas no site do [Docker](https://docs.docker.com/engine/install/ubuntu/).
 
