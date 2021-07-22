@@ -181,12 +181,7 @@ Instale os pré-requisitos:
 ```
 sudo apt update && sudo apt upgrade
 sudo apt remove docker docker-engine docker.io containerd runc
-sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
+sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
 
 ```
 
